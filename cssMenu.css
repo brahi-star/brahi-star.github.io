@@ -1,0 +1,33 @@
+.footer {
+	margin: 0;
+	padding: 1vw;
+	background-color: black;
+}
+.footer table {
+	width: 100%;
+	margin: 0;
+}
+.menu1 {
+	padding: 2vw;
+	margin: 0;
+	text-decoration: none;
+	color: white;
+	font-size: 2vw;
+}
+.menu1:hover {
+	background-color: grey;
+	color: blue;
+	border-radius: 1vw;
+}
+.menu2 {
+	padding: 2vw;
+	padding-bottom: 1vw;
+}
+.menu2 img {
+	opacity: 0.4;
+	width: 2.1vw;
+	height: 2.1vw;
+}
+.menu2 img:hover {
+	opacity: 1;
+}

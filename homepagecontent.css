@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-image: url(pro2.jpeg);
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+.mainBody {
+	width: 100%;
+}
+.proverbsImages {
+	width: 30%;
+	float: left;
+	border-left: 2vw solid green;
+	border-right: 0;
+	background-image: url(pro2.jpeg);
+	background-repeat: repeat;
+	background-size: contain;
+	box-sizing: border-box;
+	height: 100vw;
+}
+.content {
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+	background-image: url(pro2.jpeg);
+	background-repeat: repeat;
+	background-size: contain;
+	height: 100vw;
+}
+.proverbsImages h1, .content h1 {
+	text-align: center;
+	font-family: Monotype corsiva;
+	color: orangered;
+	font-size: 3vw;
+}
+.content p {
+	text-indent: 3vw;
+	font-size: 1.9vw;
+	margin: 0;
+	padding-left: 5vw;
+	font-family: muli;
+	padding-right: 3vw;
+}
+.proverbsImages blockquote {
+	font-size: 1.7vw;
+	border: 0.1vw solid red;
+	border-radius: 0.6vw;
+	text-align: center;
+	padding: 0.8vw;
+	margin: 0.4vw;
+}
+.proverbsImages img {
+	box-sizing: border-box;
+	height: auto;
+	width: 90%;
+	margin: 5%;
+	margin-top: 0;
+	border-radius: 2%;
+}

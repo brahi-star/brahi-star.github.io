@@ -1,0 +1,24 @@
+.menuHeader {
+	background-image: url(space2.jpg);
+	background-repeat: repeat;
+}
+#pageName {
+	font-size: 5vw;
+	color: coral;
+	text-decoration: none;
+	padding-left: 3vw;
+	padding-right: 24vw;
+	margin: 0;
+}
+.menuElement {
+	text-decoration: none;
+	font-size: 2.2vw;
+	color: powderblue;
+	padding-left: 1.7vw;
+	padding-right: 1.7vw;
+}
+.menuElement:hover {
+	border-radius: 0.2vw;
+	background-color: grey;
+	color: blue;
+}

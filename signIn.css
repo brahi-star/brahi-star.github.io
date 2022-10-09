@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+}
+.inp {
+	width: 45%;
+	padding: 1vw;
+	margin: 3vw;
+	margin-top: 0.6vw;
+	box-sizing: border-box;
+	border: 0.2vw solid grey;
+	border-radius: 0.6vw;
+	box-shadow: 0.15vw 0.15vw 0.15vw 0.15vw grey;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.lab {
+	margin: 2vw;
+	margin-bottom: 0;
+	font-size: 2vw;
+}
+.inp:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.inp:focus {
+	outline: none;
+	border: 0.2vw solid lightblue;
+}
+.submit-botton {
+	background-color: powderblue;
+	border: 0.2vw solid grey;
+	border-radius: 1vw;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px 1px grey;
+	width: 45%;
+	padding: 1vw;
+	font-size: 1.5vw;margin-top: -2vw;"
+}
+
+@media screen and (max-width: 600px) {
+	.inp {
+		width: 90%;
+	}
+	.submit-botton {
+		width: 90%;
+	}
+}

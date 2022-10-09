@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(background.jpeg);
+}
+
+
+.intro p {
+	color: white;
+	font-size: 1.5vw;
+	text-indent: 3vw;
+	padding-bottom: 1vw;
+}
+.intro {
+	margin: 4vw;
+}
+
+
+
+.blocs {
+	border-radius: 3vw;
+	margin: 4vw;
+}
+.bigtitlesSommaire {
+	font-size: 2vw;
+	color: coral;
+}
+.titles {
+	color: coral;
+	text-decoration: none;
+}
+.titles:hover {
+	color: green;
+}
+.titles:visited {
+	color: blueviolet;
+}
+.subTitles {
+	font-size: 1.5Sw;
+	color: white;
+}
+.blocs h1 {
+	color: red;
+	background-color: lightgray;
+	padding: 1vw;
+	border-radius: 3vw;
+	font-size: 2.5vw;
+	font-family: Comic Sans;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+.blocs h2 {
+	color: darkgreen;
+	padding: 2vw;
+	padding-left: 5vw;
+	font-size: 2vw;
+}
+.blocs p {
+	font-size: 1.7vw;
+	color: white;
+	margin-left: 2vw;
+	text-indent: 3vw;
+}
+.blocs ul {
+	font-size: 1.7vw;
+	color: white;
+	margin-left: 2vw;
+	text-indent: 3vw;
+}
+#prevent {
+	color: red;
+	font-family: verdana;
+	padding: 1.2vw;
+	font-size: 2.4vw;
+	background: none;
+	border: none;
+	text-align: left;
+}
